@@ -27,6 +27,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 7px 20px;
+    
 }
 
 .nav_menu{  
@@ -295,14 +296,21 @@ p.detail1{
    }
 
    .projects{
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
     margin: auto;
-    width: 544px;
+    width: 600px;
     height: 600px;
     background-color: #F7F7F7;
     border-radius: 12px;
-    padding: 32px 8px 8px;
+    padding: 24px 24px 24px 24px;
     
    }
+
+   ul.projects_header{
+    display: flex;
+
+    justify-content: space-around;
+    color: #666666;
+    font-size: 22px;
+    gap: 275px;
+   }
+
